@@ -32,5 +32,26 @@ This is a hobby-level prototype intended for learning and experimentation.
 The robot does not implement advanced autonomy, SLAM, or dynamic balance control.
 The focus is on robustness, safety, and understanding system-level design trade-offs.
 
+## Related Work
+
+### Academic References
+1. **Feng Q., et al.**  
+   *Rolling Locomotion Control of a Biologically Inspired Quadruped Robot Based on Energy Compensation.*  
+   This work provides the primary inspiration for rolling locomotion concepts explored in this project.
+
+2. **G. Bledt, et al.**  
+   *Design and Control of a Robust, Dynamic Quadruped Robot (MIT Cheetah 3).*  
+   This paper offers insight into quadruped robot design and locomotion control strategies at a system level.
+
+3. **A. Spröwitz, et al.**  
+   *Towards Dynamic Trot Gait Locomotion: Design, Control, and Experiments with Cheetah-cub.*  
+   This work discusses gait generation and experimental evaluation of quadruped walking behaviors.
+
+### Open-Source Reference
+- **anoochit/arduino-quadruped-robot**  
+  https://github.com/anoochit/arduino-quadruped-robot  
+  A practical Arduino-based quadruped implementation using hobby servos, referenced for firmware
+  structure and multi-servo control patterns.
+
 ## License
-MIT License
+This project is licensed under the MIT License.
